@@ -1,0 +1,21 @@
+{
+  "name": "dok-ts-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Dmitry Kalyuk <dmitry@kalyuk.ru>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@types/node": "^8.0.50",
+    "dok-ts": "^1.0.1",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "scripts": {
+    "start": "ts-node ./bin/server.ts",
+    "dev": "nodemon ./bin/server.ts"
+  }
+}
